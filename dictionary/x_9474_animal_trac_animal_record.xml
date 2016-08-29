@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Animal Record" max_length="40" name="x_9474_animal_trac_animal_record" type="collection">
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Date of Purchase" max_length="40" name="date_of_purchase" type="glide_date"/>
+        <element label="Date of Sale" max_length="40" name="date_of_sale" type="glide_date"/>
+        <element label="Father" max_length="32" name="father" reference="x_9474_animal_trac_animal_record" type="reference"/>
+        <element label="Height" max_length="40" name="height" read_only="true" type="string"/>
+        <element label="Last Feed" max_length="40" name="last_feed" read_only="true" type="glide_date"/>
+        <element label="Last Measurement" max_length="40" name="last_measurement" read_only="true" type="string"/>
+        <element label="Length" max_length="40" name="length" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="License of Buyer" max_length="40" name="license_of_buyer" type="string"/>
+        <element label="License of Seller" max_length="40" name="license_of_seller" type="string"/>
+        <element label="Mother" max_length="32" name="mother" reference="x_9474_animal_trac_animal_record" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="Other details of purchase" max_length="1000" name="other_details_of_purchase" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other details of sale" max_length="1000" name="other_details_of_sale" type="string"/>
+        <element attributes="omit_sys_original=true" label="Purchase Amount" max_length="15" name="purchase_amount" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Sale Amount" max_length="15" name="sale_amount" type="currency"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element label="Male" sequence="0" value="Male"/>
+                <element label="Female" sequence="1" value="Female"/>
+                <element label="Unknown" sequence="2" value="Unknown"/>
+            </choice>
+        </element>
+        <element label="Species" max_length="32" name="species" reference="x_9474_animal_trac_species_list" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Alive" sequence="0" value="Alive"/>
+                <element label="Dead" sequence="1" value="Dead"/>
+                <element label="Lost" sequence="2" value="Lost"/>
+                <element label="Sold" sequence="3" value="Sold"/>
+            </choice>
+        </element>
+        <element label="Weight" max_length="40" name="weight" read_only="true" type="string"/>
+        <index name="index">
+            <element name="mother"/>
+        </index>
+        <index name="index2">
+            <element name="species"/>
+        </index>
+        <index name="index3">
+            <element name="father"/>
+        </index>
+        <index name="index4">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

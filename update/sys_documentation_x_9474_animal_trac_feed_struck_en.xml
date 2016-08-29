@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="struck" label="Struck?" language="en" table="x_9474_animal_trac_feed">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>struck</element>
+            <help/>
+            <hint/>
+            <label>Struck?</label>
+            <language>en</language>
+            <name>x_9474_animal_trac_feed</name>
+            <plural>Struck?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-22 09:34:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e59eaecfdb192200ac5878eebf961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Struck?</sys_name>
+            <sys_package display_value="Animal Tracker" source="x_9474_animal_trac">f441a44fdb912200ac5878eebf961943</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Animal Tracker">f441a44fdb912200ac5878eebf961943</sys_scope>
+            <sys_update_name>sys_documentation_x_9474_animal_trac_feed_struck_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-22 09:34:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

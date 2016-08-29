@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Food Stock" max_length="40" name="x_9474_animal_trac_food_stock" type="collection">
+        <element label="Quantity on Hand" max_length="40" name="quantity_on_hand" type="float"/>
+        <element display="true" label="Stock Item" max_length="40" name="stock_item" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Stock Purchase" max_length="40" name="x_9474_animal_trac_stock_purchase" type="collection">
+        <element label="Food" max_length="32" name="food" reference="x_9474_animal_trac_food_stock" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="float"/>
+        <element label="Total Price" max_length="40" name="total_price" type="currency"/>
+        <element label="Unit Price" max_length="40" name="unit_price" type="currency"/>
+        <element label="Vendor" max_length="40" name="vendor" type="string"/>
+        <index name="index">
+            <element name="food"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>name</col_name_string>
+        <index_col_name element="name" name="x_9474_animal_trac_animal_record">b1c1248fdb152200ac5878eebf961937</index_col_name>
+        <logical_table_name>x_9474_animal_trac_animal_record</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-21 23:28:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c5f3648bdb552200ac5878eebf9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_9474_animal_trac_animal_record</sys_name>
+        <sys_package display_value="Animal Tracker" source="x_9474_animal_trac">f441a44fdb912200ac5878eebf961943</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Animal Tracker">f441a44fdb912200ac5878eebf961943</sys_scope>
+        <sys_update_name>sys_index_x_9474_animal_trac_animal_record_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-21 23:28:54</sys_updated_on>
+        <table display_value="Animal Record" name="x_9474_animal_trac_animal_record">3081ac8fdb952200ac5878eebf96194a</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

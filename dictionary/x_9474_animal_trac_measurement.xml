@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_9474_animal_trac_activity" label="Measurement" max_length="40" name="x_9474_animal_trac_measurement" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Height" max_length="40" name="height" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Length" max_length="40" name="length" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Weight" max_length="40" name="weight" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Species List" max_length="40" name="x_9474_animal_trac_species_list" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element label="Genus" max_length="40" name="genus" type="string"/>
+        <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
+        <element label="Species" max_length="40" name="species" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_9474_animal_trac_activity" label="Feed" max_length="40" name="x_9474_animal_trac_feed" type="collection">
+        <element label="Consumed?" max_length="40" name="consumed" type="boolean"/>
+        <element label="Food Item" max_length="32" name="food_item" reference="x_9474_animal_trac_food_stock" type="reference"/>
+        <element label="Left Overnight?" max_length="40" name="left_overnight" type="boolean"/>
+        <element label="Quantity" max_length="40" name="quantity" type="float"/>
+        <element label="Struck?" max_length="40" name="struck" type="boolean"/>
+        <index name="index">
+            <element name="food_item"/>
+        </index>
+    </element>
+</database>
